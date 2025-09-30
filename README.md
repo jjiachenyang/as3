@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="zh-TW">
 <head>
   <meta charset="UTF-8">
@@ -10,11 +9,11 @@
       font-family: Arial, sans-serif;
     }
 
-    /* 首頁大 Banner */
+    /* 首頁 Banner 滿版 */
     .home-banner {
       background: url('https://picsum.photos/1920/400?random=1') center/cover no-repeat;
-      width: 100%;
-      height: 300px;
+      width: 100vw;       /* 滿螢幕寬度 */
+      height: 300px;      
       display: flex;
       justify-content: center;
       align-items: center;
@@ -54,8 +53,9 @@
       text-decoration: underline;
     }
 
-    /* 各區段 Banner */
+    /* 區段 Banner 滿版 */
     .section-banner {
+      width: 100vw;
       height: 300px;
       display: flex;
       justify-content: center;
@@ -63,11 +63,13 @@
       font-size: 2rem;
       font-weight: bold;
       color: white;
+      background-size: cover;
+      background-position: center;
     }
 
-    .section1-banner { background: url('https://picsum.photos/1200/500?random=2') center/cover no-repeat; }
-    .section2-banner { background: url('https://picsum.photos/1200/500?random=3') center/cover no-repeat; }
-    .section3-banner { background: url('https://picsum.photos/1200/500?random=5') center/cover no-repeat; } /* 修改可靠圖片 */
+    .section1-banner { background-image: url('https://picsum.photos/1920/500?random=2'); }
+    .section2-banner { background-image: url('https://picsum.photos/1920/500?random=3'); }
+    .section3-banner { background-image: url('https://picsum.photos/1920/500?random=5'); }
 
     /* 區段內容區塊 */
     .content-wrapper {
@@ -79,7 +81,7 @@
 
     .content-box {
       width: 50%;       /* 灰色方塊寬度 */
-      min-height: 200px; /* 縮短高度，保留白底 */
+      min-height: 200px; /* 高度縮短 */
       background: #e0e0e0;
       padding: 50px;
       border-radius: 10px;
