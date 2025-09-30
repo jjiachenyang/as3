@@ -11,7 +11,7 @@
 
     /* 首頁 Banner 滿版 */
     .home-banner {
-      background: url('https://picsum.photos/1920/400?random=1') center/cover no-repeat;
+      background: url('https://picsum.photos/id/1013/1920/400') center/cover no-repeat;
       width: 100%;       /* 滿螢幕寬度 */
       height: 300px;      
       display: flex;
@@ -68,9 +68,9 @@
       background-position: center;
     }
 
-    .section1-banner { background-image: url('https://picsum.photos/1920/500?random=2'); }
-    .section2-banner { background-image: url('https://picsum.photos/1920/500?random=3'); }
-    .section3-banner { background-image: url('https://picsum.photos/1920/500?random=5'); }
+    .section1-banner { background-image: url('https://picsum.photos/id/1015/1920/500'); }
+    .section2-banner { background-image: url('https://picsum.photos/id/1016/1920/500'); }
+    .section3-banner { background-image: url('https://picsum.photos/id/1018/1920/500'); }
 
     /* 區段內容區塊 */
     .content-wrapper {
