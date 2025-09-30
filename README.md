@@ -12,7 +12,7 @@
     /* 首頁 Banner 滿版 */
     .home-banner {
       background: url('https://picsum.photos/1920/400?random=1') center/cover no-repeat;
-      width: 100vw;       /* 滿螢幕寬度 */
+      width: 100%;       /* 滿螢幕寬度 */
       height: 300px;      
       display: flex;
       justify-content: center;
@@ -28,6 +28,7 @@
       top: 0;
       z-index: 1000;
       background-color: #333;
+      width: 100%;       /* 滿螢幕寬度 */
       padding: 10px 20px;
     }
 
@@ -55,7 +56,7 @@
 
     /* 區段 Banner 滿版 */
     .section-banner {
-      width: 100vw;
+      width: 100%;       /* 滿螢幕寬度 */
       height: 300px;
       display: flex;
       justify-content: center;
@@ -81,7 +82,7 @@
 
     .content-box {
       width: 50%;       /* 灰色方塊寬度 */
-      min-height: 200px; /* 高度縮短 */
+      min-height: 200px; /* 高度縮短，保留白色留白 */
       background: #e0e0e0;
       padding: 50px;
       border-radius: 10px;
